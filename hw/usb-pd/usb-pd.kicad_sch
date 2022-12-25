@@ -1,0 +1,121 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 186.055 70.485) (size 32.385 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid ed281390-78e7-4141-803e-8c3c15908eac)
+    (property "Sheet name" "USB-PD Negotiator" (id 0) (at 186.055 69.7734 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "STUSB4710A.kicad_sch" (id 1) (at 186.055 90.1196 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "USB_VBUS" output (at 218.44 73.025 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid e878f44d-f3c4-412a-836b-8a1b80685af8)
+    )
+    (pin "USB_CC1" input (at 218.44 76.2 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid d579685f-3316-4a2f-8f69-3e8f75af34ce)
+    )
+    (pin "USB_CC2" input (at 218.44 78.105 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid a6f96f47-3aca-47b3-9f83-5c6c8b0dd9e1)
+    )
+    (pin "Vin" input (at 186.055 73.025 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid d695f7f4-d2b1-46f2-bea8-e7377e0de45e)
+    )
+    (pin "PDO5" output (at 186.055 76.2 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid f0e9a81c-e83f-4297-9b43-43aebd5a28c0)
+    )
+    (pin "PDO3" output (at 186.055 80.01 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid a92c9dbf-fa29-4f71-b5cf-bed1c6b2e3cc)
+    )
+    (pin "PDO4" output (at 186.055 78.105 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 929edfaf-fc87-4f0c-8090-0a21ddcccfcf)
+    )
+    (pin "PDO2" output (at 186.055 81.915 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 11de1ba6-00f8-4b26-8bf8-eadc2f791e6d)
+    )
+    (pin "SDA" bidirectional (at 186.055 85.09 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid f8bb5189-c2a9-4789-abdb-c747c26e216c)
+    )
+    (pin "SCL" bidirectional (at 186.055 86.995 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 79d832ad-66d1-4eb6-b958-4e387a72d45c)
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/ed281390-78e7-4141-803e-8c3c15908eac" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/ed281390-78e7-4141-803e-8c3c15908eac/6fe4be6c-be14-4a68-8a0f-ab3de4c66684"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ed281390-78e7-4141-803e-8c3c15908eac/9e08501c-638a-443f-8185-5ef28ecf1b09"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ed281390-78e7-4141-803e-8c3c15908eac/a1aab9fd-f512-4494-ace1-42bd844fa1f5"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ed281390-78e7-4141-803e-8c3c15908eac/b4a716cb-039d-4f41-97c6-ad17c41aeac0"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ed281390-78e7-4141-803e-8c3c15908eac/4fff8bea-9a10-42ee-8d53-33b1043c7c3d"
+      (reference "C?") (unit 1) (value "1uF 35V") (footprint "")
+    )
+    (path "/ed281390-78e7-4141-803e-8c3c15908eac/8f85ddf6-1422-4b93-9aed-4eeb98f597e3"
+      (reference "C?") (unit 1) (value "1uF 35V") (footprint "")
+    )
+    (path "/ed281390-78e7-4141-803e-8c3c15908eac/b583f66b-41f2-405d-a503-8b682fec6492"
+      (reference "C?") (unit 1) (value "10UF 35V") (footprint "")
+    )
+    (path "/ed281390-78e7-4141-803e-8c3c15908eac/de64c973-e9a8-4cac-9d05-ad1a262601dc"
+      (reference "C?") (unit 1) (value "1uF 35V") (footprint "")
+    )
+    (path "/ed281390-78e7-4141-803e-8c3c15908eac/13901ee0-99a3-4367-92b7-5f9e3443bf05"
+      (reference "D?") (unit 1) (value "Vwo=25V") (footprint "")
+    )
+    (path "/ed281390-78e7-4141-803e-8c3c15908eac/51b545c8-4369-4f81-9890-5e2bc907609e"
+      (reference "Q?") (unit 1) (value "TPCC8105L1Q") (footprint "")
+    )
+    (path "/ed281390-78e7-4141-803e-8c3c15908eac/5547e75b-2cc1-4354-b8f5-d4a760c0af89"
+      (reference "Q?") (unit 1) (value "Q_NMOS_GSD") (footprint "")
+    )
+    (path "/ed281390-78e7-4141-803e-8c3c15908eac/61f244ef-2dd2-49a6-bad4-efe4ea44dc3d"
+      (reference "Q?") (unit 1) (value "TPCC8105L1Q") (footprint "")
+    )
+    (path "/ed281390-78e7-4141-803e-8c3c15908eac/10abb0a3-bcaf-4b17-baa8-18ad69710d9f"
+      (reference "R?") (unit 1) (value "1k2") (footprint "")
+    )
+    (path "/ed281390-78e7-4141-803e-8c3c15908eac/71357e6e-f274-42a9-bc2c-36e3a2288f54"
+      (reference "R?") (unit 1) (value "10k") (footprint "")
+    )
+    (path "/ed281390-78e7-4141-803e-8c3c15908eac/8b6f1ce0-7413-4b9c-be67-350cc7d4b811"
+      (reference "R?") (unit 1) (value "10k") (footprint "")
+    )
+    (path "/ed281390-78e7-4141-803e-8c3c15908eac/d9d6b806-f905-40d1-8f5e-817c840d1d73"
+      (reference "R?") (unit 1) (value "2k2") (footprint "")
+    )
+    (path "/ed281390-78e7-4141-803e-8c3c15908eac/6afd796a-10a4-4fe7-a7b4-d07c3721aab6"
+      (reference "U?") (unit 1) (value "STUSB4710AQ1") (footprint "footprints:QFN-16-1EP_3x3mm_P0.5mm")
+    )
+  )
+)
